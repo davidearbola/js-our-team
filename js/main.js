@@ -32,3 +32,10 @@ let team = [
 		immagine: "barbara-ramos-graphic-designer.jpg",
 	},
 ];
+
+// ciclo for per iterare all'interno dell'array e stampare solo due proprietà degli oggetti
+for (let i = 0; i < team.length; i++) {
+	const member = team[i];
+	console.log(member);
+	console.log(`Membro del team: ${member.nome}, ${member.ruolo}`);
+}
